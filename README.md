@@ -24,7 +24,7 @@ Create a struct called `Character` with the following stored properties:
 * `currentLocation` of type `FilmLocation` as a variable.
 * `image` of type `UIImage` as a constant.
 
-This class should have the following two methods:
+This struct should have the following two methods:
 
 
 The first function should be called `canReportToSet(on:)` which takes on one argument called `location` of type `FilmLocation`. It should return back a `Bool`. In your implemenetation, you should return `true` or `false` if the `tvSeries`'s of both the `location` argument and the `tvSeries` on the stored property of `self` match-up.
@@ -129,7 +129,7 @@ Create the bar button item in the storyboard file on your Collection View Contro
 
 For funzies, you can look to update the UI to reflect that they are are aren't allowed on set.
 
-Hint:
+Hint: Changing the appearance of a cell when it's selected within a Collection View Controller can be done in this method:
 
 ```swift
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
